@@ -327,3 +327,10 @@ footer a {
     padding: 60px 0;
   }
 }
+.imagen-inicio {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border-radius: 8px;
+}
