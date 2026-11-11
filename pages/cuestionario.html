@@ -1,68 +1,138 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuestionario | Enrique Canadell Quintana</title>
-
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/cuestionario.js" defer></script>
+    <title>Document</title>
 </head>
-<body>
+    <body>
+    <h1>Trivia: Beato Enrique Canadell Quintana</h1>
 
-    <header class="site-header">
-        <div class="container header-inner">
-            <a class="logo" href="../index.html">
-                Enrique Canadell Quintana
-            </a>
-            <a href="../index.html">Volver al inicio</a>
-        </div>
-    </header>
+    <h2>1. ¿En qué localidad y fecha nació Enrique Canadell Quintana?</h2>
+    <input type="radio" name="p1" value="a"> A) Olot, Gerona, el 29 de junio de 1890.<br>
+    <input type="radio" name="p1" value="b"> B) Barcelona, el 17 de agosto de 1890.<br>
+    <input type="radio" name="p1" value="c"> C) Lérida, el 20 de diciembre de 1893.<br>
+    <input type="radio" name="p1" value="d"> D) Madrid, el 1 de octubre de 1895.<br>
 
-    <main id="contenido">
-        <section class="page-hero">
-            <div class="container">
-                <p class="eyebrow">Poné a prueba tus conocimientos</p>
-                <h1>Cuestionario</h1>
-                <p>Beato Enrique Canadell Quintana</p>
-            </div>
-        </section>
+    <h2>2. ¿Cuál fue el orden correcto de su formación religiosa?</h2>
+    <input type="radio" name="p2" value="a"> A) Fue ordenado sacerdote, ingresó a los Escolapios y después profesó.<br>
+    <input type="radio" name="p2" value="b"> B) Ingresó a los Escolapios, realizó su primera profesión y luego la profesión solemne.<br>
+    <input type="radio" name="p2" value="c"> C) Realizó la profesión solemne antes de ingresar a los Escolapios.<br>
+    <input type="radio" name="p2" value="d"> D) Ingresó a los Escolapios después de ser beatificado.<br>
 
-        <section>
-            <div class="container">
-                <p>Respondé las 10 preguntas.</p>
+    <h2>3. ¿Cuándo y dónde fue ordenado sacerdote?</h2>
+    <input type="radio" name="p3" value="a"> A) El 18 de agosto de 1907, en Olot.<br>
+    <input type="radio" name="p3" value="b"> B) El 29 de junio de 1912, en Barcelona.<br>
+    <input type="radio" name="p3" value="c"> C) El 20 de diciembre de 1913, en Lérida.<br>
+    <input type="radio" name="p3" value="d"> D) El 1 de octubre de 1995, en Roma.<br>
 
-                <p>
-                    Preguntas respondidas:
-                    <span id="respondidas">0</span>/10
-                </p>
+    <h2>4. ¿Qué actividades desarrolló principalmente durante su ministerio?</h2>
+    <input type="radio" name="p4" value="a"> A) Se dedicó exclusivamente a la administración de colegios.<br>
+    <input type="radio" name="p4" value="b"> B) Trabajó como militar y luego como sacerdote.<br>
+    <input type="radio" name="p4" value="c"> C) Se dedicó únicamente a escribir libros de historia.<br>
+    <input type="radio" name="p4" value="d"> D) Desarrolló tareas educativas y sacerdotales, predicó el Evangelio y promovió la devoción eucarística.<br>
 
-                <div id="preguntas"></div>
+    <h2>5. ¿En qué colegios de Barcelona desarrolló su labor?</h2>
+    <input type="radio" name="p5" value="a"> A) En el Colegio de San José y en el Colegio de Lérida.<br>
+    <input type="radio" name="p5" value="b"> B) En el Colegio de Nuestra Señora de las Escuelas Pías y en el Colegio de San Antonio.<br>
+    <input type="radio" name="p5" value="c"> C) Únicamente en el Colegio de San Antonio entre 1920 y 1925.<br>
+    <input type="radio" name="p5" value="d"> D) En colegios de Madrid y Roma.<br>
 
-                <button id="resultado" disabled>
-                    Ver mi resultado
-                </button>
+    <h2>6. ¿Por qué decidió abandonar la casa de la familia amiga que lo había refugiado en 1936?</h2>
+    <input type="radio" name="p6" value="a"> A) Porque quería regresar a Barcelona para continuar sus clases.<br>
+    <input type="radio" name="p6" value="b"> B) Porque había recibido una invitación para viajar a Roma.<br>
+    <input type="radio" name="p6" value="c"> C) Para evitar poner en peligro a la familia que lo estaba ayudando.<br>
+    <input type="radio" name="p6" value="d"> D) Porque había terminado su misión religiosa.<br>
 
-                <section id="final" class="oculto">
-                    <h2 id="tituloResultado"></h2>
-                    <p id="mensajeResultado"></p>
-                    <p id="nota"></p>
+    <h2>7. ¿Qué recorrido realizó durante su huida en 1936?</h2>
+    <input type="radio" name="p7" value="a"> A) Olot, Madrid, Roma y Barcelona.<br>
+    <input type="radio" name="p7" value="b"> B) Lérida, Madrid y Olot.<br>
+    <input type="radio" name="p7" value="c"> C) Barcelona, Roma y Gerona.<br>
+    <input type="radio" name="p7" value="d"> D) Barcelona, la casa de una familia amiga, Olot y finalmente las cercanías de Castellfollit de la Roca.<br>
 
-                    <button id="reiniciar">
-                        Volver a intentarlo
-                    </button>
+    <h2>8. ¿Qué ocurrió la noche del 17 de agosto de 1936?</h2>
+    <input type="radio" name="p8" value="a"> A) Fue detenido en Olot y posteriormente asesinado cerca de Castellfollit de la Roca.<br>
+    <input type="radio" name="p8" value="b"> B) Fue ordenado sacerdote en Lérida.<br>
+    <input type="radio" name="p8" value="c"> C) Fue trasladado a Roma para continuar sus estudios.<br>
+    <input type="radio" name="p8" value="d"> D) Fue nombrado rector de un colegio.<br>
 
-                    <a href="../index.html">Volver al inicio</a>
-                </section>
-            </div>
-        </section>
-    </main>
+    <h2>9. ¿Cuándo fue beatificado Enrique Canadell Quintana y quién lo beatificó?</h2>
+    <input type="radio" name="p9" value="a"> A) El 20 de diciembre de 1913, por un obispo de Lérida.<br>
+    <input type="radio" name="p9" value="b"> B) El 1 de octubre de 1995, por el papa San Juan Pablo II.<br>
+    <input type="radio" name="p9" value="c"> C) El 17 de agosto de 1936, por sus compañeros escolapios.<br>
+    <input type="radio" name="p9" value="d"> D) El 29 de junio de 1890, por el papa Pío XII.<br>
 
-    <footer>
-        <div class="container footer-inner">
-            <p>Proyecto web — Beato Enrique Canadell Quintana</p>
-        </div>
-    </footer>
+    <h2>10. ¿Qué valores representa el legado del Beato Enrique Canadell Quintana?</h2>
+    <input type="radio" name="p10" value="a"> A) La riqueza, el poder y el reconocimiento público.<br>
+    <input type="radio" name="p10" value="b"> B) La política, el comercio y la expansión territorial.<br>
+    <input type="radio" name="p10" value="c"> C) La educación, la fe, el servicio y el testimonio religioso.<br>
+    <input type="radio" name="p10" value="d"> D) La competencia deportiva y el éxito económico.<br>
 
+    <br><br>
+
+    <button id="comprobar" type="button">Comprobar</button>
+    <button id="reiniciar" type="button">Reiniciar</button>
+
+    <p id="resultado"></p>
+
+    <script>
+        document.getElementById("comprobar").addEventListener("click", function() {
+            let puntaje = 0;
+
+            let p1 = document.querySelector('input[name="p1"]:checked');
+            let p2 = document.querySelector('input[name="p2"]:checked');
+            let p3 = document.querySelector('input[name="p3"]:checked');
+            let p4 = document.querySelector('input[name="p4"]:checked');
+            let p5 = document.querySelector('input[name="p5"]:checked');
+            let p6 = document.querySelector('input[name="p6"]:checked');
+            let p7 = document.querySelector('input[name="p7"]:checked');
+            let p8 = document.querySelector('input[name="p8"]:checked');
+            let p9 = document.querySelector('input[name="p9"]:checked');
+            let p10 = document.querySelector('input[name="p10"]:checked');
+
+            // Verificar que todas las preguntas estén respondidas
+            if (!p1 || !p2 || !p3 || !p4 || !p5 || !p6 || !p7 || !p8 || !p9 || !p10) {
+                document.getElementById("resultado").innerHTML =
+                    "Debes responder todas las preguntas.";
+                return;
+            }
+
+            // Respuestas correctas
+            if (p1.value === "a") puntaje++;
+            if (p2.value === "b") puntaje++;
+            if (p3.value === "c") puntaje++;
+            if (p4.value === "d") puntaje++;
+            if (p5.value === "b") puntaje++;
+            if (p6.value === "c") puntaje++;
+            if (p7.value === "d") puntaje++;
+            if (p8.value === "a") puntaje++;
+            if (p9.value === "b") puntaje++;
+            if (p10.value === "c") puntaje++;
+
+            let mensaje = "<h3>Resultado: " + puntaje + "/10 puntos</h3>";
+
+            if (puntaje === 10) {
+                mensaje += "¡Felicitaciones! ¡Has respondido correctamente todas las preguntas!";
+            } else if (puntaje >= 7) {
+                mensaje += "¡Muy buen trabajo! Conoces muy bien la historia del Beato Enrique Canadell Quintana.";
+            } else if (puntaje >= 5) {
+                mensaje += "¡Buen intento! Te recomendamos repasar la información y volver a intentarlo.";
+            } else {
+                mensaje += "Te invitamos a revisar la información sobre el Beato Enrique Canadell Quintana e intentarlo nuevamente.";
+            }
+
+            document.getElementById("resultado").innerHTML = mensaje;
+        });
+
+        document.getElementById("reiniciar").addEventListener("click", function() {
+            let opciones = document.querySelectorAll('input[type="radio"]');
+
+            for (let opcion of opciones) {
+                opcion.checked = false;
+            }
+
+            document.getElementById("resultado").innerHTML = "";
+        });
+    </script>
 </body>
 </html>
