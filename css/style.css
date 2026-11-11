@@ -334,3 +334,39 @@ footer a {
     margin: 15px 0;
     border-radius: 8px;
 }
+
+/* ESTILOS DE LA TRIVIA */
+
+#comprobar,
+#reiniciar {
+    background-color: var(--surface-dark);
+    color: var(--white);
+    padding: 12px 20px;
+    margin: 15px 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#comprobar:hover,
+#reiniciar:hover {
+    background-color: var(--accent-dark);
+}
+
+input[type="radio"] {
+    margin: 10px;
+    accent-color: var(--accent);
+    cursor: pointer;
+}
+
+#resultado {
+    background-color: var(--surface);
+    color: var(--text);
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: var(--shadow);
+}
+
