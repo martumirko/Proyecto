@@ -335,38 +335,57 @@ footer a {
     border-radius: 8px;
 }
 
-/* ESTILOS DE LA TRIVIA */
 
-#comprobar,
-#reiniciar {
+/* DISEÑO DE LA TRIVIA */
+
+body:has(input[type="radio"]) {
+    padding-bottom: 40px;
+}
+
+body:has(input[type="radio"]) > h1 {
     background-color: var(--surface-dark);
     color: var(--white);
-    padding: 12px 20px;
-    margin: 15px 8px;
+    padding: 35px;
+    text-align: center;
+    font-size: 2.5rem;
+    border-bottom: 4px solid var(--accent);
+}
+
+body:has(input[type="radio"]) > h2 {
+    background-color: var(--surface);
+    color: var(--accent-dark);
+    font-size: 1.2rem;
+    padding: 18px;
+    margin: 25px 5% 10px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+body:has(input[type="radio"]) > input[type="radio"] {
+    margin-left: 6%;
+    accent-color: var(--accent);
+}
+
+body:has(input[type="radio"]) > button {
+    background-color: var(--accent);
+    color: var(--white);
+    padding: 12px 22px;
+    margin: 25px 5px;
     border: none;
     border-radius: 6px;
     cursor: pointer;
 }
 
-#comprobar:hover,
-#reiniciar:hover {
+body:has(input[type="radio"]) > button:hover {
     background-color: var(--accent-dark);
-}
-
-input[type="radio"] {
-    margin: 10px;
-    accent-color: var(--accent);
-    cursor: pointer;
 }
 
 #resultado {
     background-color: var(--surface);
-    color: var(--text);
     padding: 20px;
-    margin-top: 20px;
+    margin: 20px 5%;
     border: 1px solid var(--line);
     border-radius: 10px;
     text-align: center;
-    box-shadow: var(--shadow);
 }
-
